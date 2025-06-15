@@ -5,7 +5,7 @@ import { NextRequest, NextResponse } from 'next/server';
 export async function POST(req: NextRequest) {
   const { statement } = await req.json();
 
-  const genAI = new GoogleGenerativeAI("AIzaSyBSfxmVUvWZgwSRUDpUvK6jq5oh9LDgApI"!);
+  const genAI = new GoogleGenerativeAI(!);
 
   try {
     // Correct model + method for Gemini v1
